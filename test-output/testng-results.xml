@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="32098" started-at="2020-06-25T21:22:03Z" finished-at="2020-06-25T21:22:35Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleEventWrapper, io.cucumber.testng.CucumberFeatureWrapper)[pri:0, instance:runner.RunCuke@5649fd9b]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="FlipboardLoginTest" duration-ms="32098" started-at="2020-06-25T21:22:03Z" finished-at="2020-06-25T21:22:35Z">
+      <class name="runner.RunCuke">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runner.RunCuke@5649fd9b]" name="setUpClass" is-config="true" duration-ms="229" started-at="2020-06-25T21:22:03Z" finished-at="2020-06-25T21:22:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleEventWrapper, io.cucumber.testng.CucumberFeatureWrapper)[pri:0, instance:runner.RunCuke@5649fd9b]" name="runScenario" duration-ms="31358" started-at="2020-06-25T21:22:03Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-06-25T21:22:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["In order to verify login to flipboard app"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Feature"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runner.RunCuke@5649fd9b]" name="tearDownClass" is-config="true" duration-ms="471" started-at="2020-06-25T21:22:34Z" finished-at="2020-06-25T21:22:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.RunCuke -->
+    </test> <!-- FlipboardLoginTest -->
+  </suite> <!-- Suite -->
+</testng-results>
